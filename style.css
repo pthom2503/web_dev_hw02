@@ -1,0 +1,31 @@
+#calc {
+    width: 400px;
+    height: 550px;
+    border-style: solid;
+    border-color: black;
+    background-color: gray;
+}
+
+#display_screen {
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 200px;
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+    font-size: 5vh;
+    background-color: white;
+}
+
+#input_buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+button {
+    height: 75px;
+    width: 75px;
+    font-size: large;
+}
